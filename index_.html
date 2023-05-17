@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div id="content">HELLO</div>
+
+    <script>
+        async function Init() {
+            var products = await fetch('http://localhost:2237/api/test').then((data) => data.json());
+            console.log(products);
+        }
+
+        Init();
+    </script>
+</body>
+</html>
