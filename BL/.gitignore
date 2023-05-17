@@ -322,8 +322,7 @@ __pycache__/
 
 # Tabs Studio
 *.tss
-BL/App.config
-BL/*.config
+
 # Telerik's JustMock configuration file
 *.jmconfig
 
